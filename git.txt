@@ -1,0 +1,17 @@
+git 사이트에 로그인 후 Repositories 로 접속 후 New 클릭
+Repository name 설정 ex) dong 설정 후 create repository 클릭
+그 다음 Url 주소 복사 후 cmd
+
+C:\Users\A0501660\Work>git clone https://github.com/kimdonggwan337/dong.git(/work안에 /dong 생성됨)
+Cloning into 'dong'...
+warning: You appear to have cloned an empty repository. <-이렇게 나옴
+
+cd dong
+
+git add .<-dong 파일안에 파일들을 추가하겠다.
+
+git commit -m "upload"<-파일 등록 목적
+
+git push --all<- dong  파일 안에 모든 파일 git 에 올린다.
+
+git 사이트 확인하면 올라가 있음...
